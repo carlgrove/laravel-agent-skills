@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Debug
+  short_description: Reproduce defects and fix their root cause
+  default_prompt: Use $laravel-debug to handle this Laravel task with explicit evidence
+    and verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

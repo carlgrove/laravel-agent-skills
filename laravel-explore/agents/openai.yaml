@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Explore
+  short_description: Explore Laravel repos and initialize AGENTS.md guidance
+  default_prompt: Use $laravel-explore to initialize this repository for agents by
+    creating or updating an evidence-backed AGENTS.md.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

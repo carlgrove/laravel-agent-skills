@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Improve
+  short_description: Prioritize repository improvements using measured evidence
+  default_prompt: Use $laravel-improve to handle this Laravel task with explicit evidence
+    and verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

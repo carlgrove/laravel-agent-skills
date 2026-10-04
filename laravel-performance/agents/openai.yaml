@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Performance
+  short_description: Measure Laravel capacity and remove proven bottlenecks
+  default_prompt: Use $laravel-performance to assess and implement this Laravel task
+    with measurable acceptance criteria.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

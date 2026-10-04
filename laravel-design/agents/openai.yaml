@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Design
+  short_description: Design Laravel boundaries, contracts and change plans
+  default_prompt: Use $laravel-design to handle this Laravel task with explicit evidence
+    and verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

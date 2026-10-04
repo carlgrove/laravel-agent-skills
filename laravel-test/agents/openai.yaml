@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Test
+  short_description: Build risk-based Laravel tests and verification evidence
+  default_prompt: Use $laravel-test to handle this Laravel task with explicit evidence
+    and verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

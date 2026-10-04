@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Integrations
+  short_description: Build compatible APIs and resilient external integrations
+  default_prompt: Use $laravel-integrations to assess and implement this Laravel task
+    with measurable acceptance criteria.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

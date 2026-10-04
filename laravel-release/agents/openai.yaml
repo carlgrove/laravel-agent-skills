@@ -1,0 +1,14 @@
+interface:
+  display_name: Laravel Release
+  short_description: Prepare CI gates and safe Laravel release plans
+  default_prompt: Use $laravel-release to handle this Laravel task with explicit evidence
+    and verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
